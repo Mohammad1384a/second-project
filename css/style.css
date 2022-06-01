@@ -1,3 +1,31 @@
 * {
     margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*navbar-header*/
+
+#header-nav {
+    margin: 3vh 10vw 0 10vw;
+}
+
+#header-nav ul {
+    float: right;
+    list-style-type: none;
+}
+
+#header-nav ul li {
+    display: inline;
+    margin-left: 5vw;
+}
+
+#header-nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#header-nav ul li a:hover {
+    color: rgba(195, 205, 50, 0.888);
 }
