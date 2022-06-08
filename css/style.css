@@ -33,6 +33,7 @@ a:hover {
 li {
     display: inline;
     margin-right: 2vw;
+    color: #ffffff;
 }
 
 .title {
@@ -63,6 +64,12 @@ li {
     background-color: #F9B500;
 }
 
+#container {
+    margin: 3vh 10vw 0 10vw;
+    overflow: hidden;
+    width: 80vw;
+}
+
 
 /* -------------------------------------------------------------------------- */
 
@@ -72,11 +79,8 @@ li {
 
 /* -------------------------------------------------------------------------- */
 
-#header-nav {
-    margin: 3vh 10vw 0 10vw;
-}
-
 #header-nav ul {
+    margin-bottom: 5vh;
     float: right;
     list-style-type: none;
 }
@@ -107,4 +111,120 @@ li {
     #hamburger {
         display: inline-block;
     }
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                 main-photos                                */
+
+
+/* -------------------------------------------------------------------------- */
+
+#container2 {
+    height: 100vh;
+    margin-bottom: 10vh;
+}
+
+.two-third-row {
+    margin-top: 5vh;
+    height: 59vh;
+    width: 80vw;
+    position: absolute;
+}
+
+.one-third-col {
+    margin-left: 10px;
+    margin-bottom: 1vh;
+    width: 26vw;
+    height: 29vh;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.one-third-col .photo-content h1 {
+    line-height: 4vh;
+    padding: 14vh 0 0 2vw;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+.one-third-col .photo-content ul {
+    padding: 2vh 0 2.5vh 2vw;
+}
+
+#div1 {
+    background-image: url(../images/slider-2-450x600.jpg);
+}
+
+#div2 {
+    background-image: url(../images/slider-3-450x600.jpg);
+}
+
+#div3 {
+    background-image: url(../images/slider-6-450x600.jpg);
+}
+
+#div4 {
+    background-image: url(../images/slider-5-450x600.jpg);
+}
+
+#div5 {
+    background-image: url(../images/slider-4-450x600.jpg);
+}
+
+.two-third-col {
+    width: calc(calc(100% / 3*2));
+    height: 100%;
+    background-image: url(../images/banner-1-600x450.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.one-third-row {
+    margin-bottom: -1vh;
+    height: 29vh;
+    width: 80vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.one-third-row .photo-content h1 {
+    line-height: 4vh;
+    padding: 14vh 0 1vh 2vw;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+.one-third-row .photo-content ul {
+    padding: 0 0 2.5vh 2vw;
+}
+
+#div5 {
+    margin-left: 0 !important;
+    float: left;
+    width: 26.6vw;
+}
+
+.photo-content {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.two-third-col .photo-content h1 {
+    padding: 37vh 0 3vh 3vw;
+    font-size: 2.3vw;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.photo-content ul {
+    padding-left: 3vw;
+    padding-bottom: 4.9vh;
 }
