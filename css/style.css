@@ -16,13 +16,19 @@ i {
     color: #F9B500;
 }
 
-b {
+b:hover {
     color: #F9B500;
+}
+
+b {
+    font-weight: 1000;
+    transition: all 0.2;
 }
 
 a {
     color: black;
     text-decoration: none;
+    font-weight: 700;
 }
 
 a:hover {
@@ -33,6 +39,7 @@ a:hover {
 li {
     display: inline;
     margin-right: 2vw;
+    color: #ffffff;
 }
 
 .title {
@@ -63,6 +70,17 @@ li {
     background-color: #F9B500;
 }
 
+.clearfix {
+    clear: both;
+}
+
+#container {
+    margin: 3vh 10vw 0 10vw;
+    overflow: hidden;
+    width: 80vw;
+    height: 300vh;
+}
+
 
 /* -------------------------------------------------------------------------- */
 
@@ -72,11 +90,8 @@ li {
 
 /* -------------------------------------------------------------------------- */
 
-#header-nav {
-    margin: 3vh 10vw 0 10vw;
-}
-
 #header-nav ul {
+    margin-bottom: 5vh;
     float: right;
     list-style-type: none;
 }
@@ -107,4 +122,321 @@ li {
     #hamburger {
         display: inline-block;
     }
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                 main-photos                                */
+
+
+/* -------------------------------------------------------------------------- */
+
+#container2 {
+    height: 100vh;
+    margin-bottom: 10vh;
+}
+
+.main-photos {
+    position: relative;
+    height: 90vh;
+}
+
+.two-third-row {
+    margin-top: 5vh;
+    height: 59vh;
+    width: 80vw;
+    position: absolute;
+}
+
+.one-third-col {
+    margin-left: 10px;
+    margin-bottom: 1vh;
+    width: 26vw;
+    height: 29vh;
+    float: right;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.one-third-col .photo-content h1 {
+    line-height: 4vh;
+    padding: 14vh 0 0 2vw;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+.one-third-col .photo-content ul {
+    padding: 2vh 0 2.5vh 2vw;
+}
+
+#div1 {
+    background-image: url(../images/slider-2-450x600.jpg);
+}
+
+#div2 {
+    background-image: url(../images/slider-3-450x600.jpg);
+}
+
+#div3 {
+    background-image: url(../images/slider-6-450x600.jpg);
+}
+
+#div4 {
+    background-image: url(../images/slider-5-450x600.jpg);
+}
+
+#div5 {
+    background-image: url(../images/slider-4-450x600.jpg);
+}
+
+.two-third-col {
+    width: calc(calc(100% / 3*2));
+    height: 100%;
+    background-image: url(../images/banner-1-600x450.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    position: relative;
+}
+
+.one-third-row {
+    margin-bottom: -5vh;
+    height: 29vh;
+    width: 80vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.one-third-row .photo-content h1 {
+    line-height: 4vh;
+    padding: 14vh 0 1vh 2vw;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+.one-third-row .photo-content ul {
+    padding: 0 0 2.5vh 2vw;
+}
+
+#div5 {
+    margin-left: 0 !important;
+    float: left;
+    width: 26.6vw;
+}
+
+#div5 .photo-content {
+    width: 26.6vw;
+}
+
+.photo-content {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.two-third-col .photo-content h1 {
+    padding: 37vh 0 3vh 3vw;
+    font-size: 2.3vw;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.photo-content ul {
+    padding-left: 3vw;
+    padding-bottom: 4.9vh;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                 recent news                                */
+
+
+/* -------------------------------------------------------------------------- */
+
+#recent-news {
+    margin-top: 5vh;
+    height: 150vh;
+    width: 67%;
+    float: left;
+}
+
+#recent-news img {
+    width: 100%;
+    height: 90vh;
+}
+
+#recent-news ul li {
+    color: black;
+    font-size: 1vw;
+}
+
+#recent-news span a {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+#recent-news>* {
+    padding-top: 3vh;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                   prices                                   */
+
+
+/* -------------------------------------------------------------------------- */
+
+#prices {
+    width: 30%;
+    height: 42vh;
+    float: right;
+    margin-top: 25vh;
+}
+
+#prices ul li {
+    padding-top: 1.5vh;
+    background-color: #F9B500;
+    display: block;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    border-bottom: 1px solid white;
+    color: black;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                             CRYPTO MINING NEWS                             */
+
+
+/* -------------------------------------------------------------------------- */
+
+#crypto-mining-news {
+    width: 67%;
+    height: 100vh;
+    float: left;
+    margin-top: -18vh;
+}
+
+#crypto-mining-news div {
+    width: 47%;
+    float: left;
+}
+
+#crypto-mining-news div img {
+    width: 100%;
+}
+
+#crypto-mining-news div h3 {
+    padding-bottom: 2vh;
+}
+
+#crypto-mining-news div ul li {
+    color: black;
+    font-size: 1vw;
+}
+
+#crypto-mining-news div ul li i {
+    margin-left: -.7vw;
+}
+
+#crypto-mining-news div h3 a {
+    font-size: 1vw;
+}
+
+#crypto-mining-news-1 {
+    margin-right: 3%;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                popular-posts                               */
+
+
+/* -------------------------------------------------------------------------- */
+
+#popular-posts {
+    width: 30%;
+    height: 80vh;
+    float: right;
+    margin-top: -80vh;
+}
+
+.popular-posts-item {
+    margin-bottom: 3vh;
+}
+
+.popular-posts-item div {
+    float: right;
+}
+
+.popular-posts-item div h1 {
+    padding-bottom: 3vh;
+    font-size: 1.2vw;
+}
+
+.popular-posts-item div ul li {
+    color: black;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                 news-letter                                */
+
+
+/* -------------------------------------------------------------------------- */
+
+#news-letter {
+    width: 30%;
+    height: 30vh;
+    float: right;
+    margin-top: 5vh;
+}
+
+#news-letter p {
+    color: rgb(94, 93, 93);
+    font-size: .95vw;
+    padding-bottom: 3vh;
+}
+
+#news-letter input {
+    width: 90%;
+    height: 5vh;
+    border: 2px solid #F9B500;
+    padding-left: 2vw;
+}
+
+#news-letter input:focus {
+    outline: none;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                   footer                                   */
+
+
+/* -------------------------------------------------------------------------- */
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50vh;
 }
