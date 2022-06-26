@@ -1,0 +1,415 @@
+@media screen and (max-width: 575.98px) {
+    #container {
+        height: 473vh;
+    }
+    #container2 {
+        width: 113%;
+    }
+    .main-photos {
+        height: 122vh;
+        margin-bottom: 63vh;
+    }
+    #div4,
+    #div2 {
+        margin: 0 0 1vh 0;
+    }
+    #div3 {
+        margin: 1vh 0 1vh 0;
+    }
+    #div1,
+    #div2,
+    #div3,
+    #div4,
+    #div5 {
+        width: 100%;
+        height: 30vh;
+    }
+    .photo-content h1 {
+        line-height: 3vh!important;
+        padding: 14vh 0 1vh 2vw!important;
+        font-size: 5vw!important;
+    }
+    .two-third-col {
+        height: 30vh;
+    }
+    .two-third-col ul {
+        padding-left: 2vw;
+    }
+    #recent-news {
+        width: 100%;
+        height: 52vh;
+    }
+    #recent-news img {
+        height: 24vh;
+    }
+    #recent-news ul li {
+        font-size: 1.2vh;
+        margin-right: 2vw;
+    }
+    #prices {
+        width: 100%;
+        margin-top: 9vh;
+    }
+    #prices ul li {
+        height: 3vh;
+    }
+    #popular-posts {
+        width: 100%;
+        height: 40vh;
+        margin-top: -174vh;
+    }
+    .popular-posts-item {
+        height: 14vh;
+        width: 80%;
+        margin: 0 5% 2vh 5%;
+        position: relative;
+    }
+    .popular-posts-item img {
+        width: 100%;
+        height: 100%;
+    }
+    .popular-posts-item div {
+        position: absolute;
+        top: 0;
+        background-color: rgba(0, 0, 0, .4);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .popular-posts-item div h1 {
+        padding: 5vh .1vw .1vh .8vh;
+        font-size: 1.7vh;
+        color: #fff;
+    }
+    .popular-posts-item div ul li {
+        padding: .2vh .1vw 0 .8vh;
+        font-size: 1.2vh;
+        color: #fff;
+    }
+    .popular-posts-item div ul li a {
+        font-size: 1.2vh;
+        color: #fff;
+    }
+    #crypto-mining-news {
+        margin-top: 65vh;
+        width: 100%;
+    }
+    #crypto-mining-news div h3 {
+        margin-top: 1vh;
+    }
+    #crypto-mining-news div {
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+    #crypto-mining-news div ul li {
+        font-size: 1.2vh;
+        margin-right: 1vw;
+    }
+    #crypto-mining-news div h3 a {
+        font-size: 1.5vh;
+        font-weight: 600;
+    }
+    #news-letter {
+        margin-top: -10vh;
+    }
+    #news-letter input {
+        width: 85%;
+    }
+    #news-letter p {
+        font-size: 1.5vh;
+    }
+    footer {
+        height: 130vh;
+    }
+    #footer-left {
+        width: 100%;
+    }
+    .footer-center {
+        width: 100%;
+        margin-top: 2vh;
+        margin-left: -1vw;
+    }
+    .footer-right {
+        width: 100%;
+        margin-top: 0;
+        margin-left: -1vw;
+    }
+    #footer-top {
+        height: 105vh;
+    }
+    #footer-bottom ul li {
+        display: block;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 575.98px) and (max-width:767.98px) {
+    footer {
+        height: 115vh;
+    }
+    #footer-left {
+        width: 100%;
+    }
+    .footer-center {
+        width: 100%;
+        margin-top: 2vh;
+    }
+    .footer-right {
+        width: 100%;
+        margin-top: 0;
+    }
+    #footer-top {
+        height: 65vh;
+    }
+    #news-letter {
+        margin-top: -50vh;
+    }
+    #news-letter p {
+        font-size: 1.5vh;
+    }
+    #crypto-mining-news {
+        margin-top: -33vh;
+    }
+    #crypto-mining-news div ul li {
+        font-size: .9vh;
+        margin-right: 1vw;
+    }
+    #crypto-mining-news div h3 a {
+        font-size: 1vh;
+        font-weight: 600;
+    }
+    #popular-posts {
+        height: 40vh;
+        margin-top: -115vh;
+    }
+    .popular-posts-item {
+        height: 13vh;
+        width: 100%;
+        margin-bottom: 2vh;
+        position: relative;
+    }
+    .popular-posts-item img {
+        width: 100%;
+        height: 100%;
+    }
+    .popular-posts-item div {
+        position: absolute;
+        top: 0;
+        background-color: rgba(0, 0, 0, .4);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .popular-posts-item div h1 {
+        padding: 5vh .1vh .1vh .8vh;
+        font-size: 1vh;
+        color: #fff;
+    }
+    .popular-posts-item div ul li {
+        padding: .2vh .1vh 0 .8vh;
+        font-size: .9vh;
+        color: #fff;
+    }
+    .popular-posts-item div ul li a {
+        font-size: .9vh;
+        color: #fff;
+    }
+    #recent-news img {
+        height: 30vh;
+    }
+    #recent-news ul li {
+        font-size: 1.1vh;
+    }
+    #prices ul li {
+        height: 3vh;
+    }
+    .main-photos {
+        height: 122vh;
+        margin-bottom: 63vh;
+    }
+    #container {
+        height: 340vh;
+    }
+    #div4,
+    #div2 {
+        margin: 0 0 1vh 0;
+    }
+    #div3 {
+        margin: 1vh 0 1vh 0;
+    }
+    #div1,
+    #div2,
+    #div3,
+    #div4,
+    #div5 {
+        width: 100%;
+        height: 30vh;
+    }
+    .photo-content h1 {
+        line-height: 4vh!important;
+        padding: 14vh 0 0 2vw!important;
+        font-size: 3.5vw!important;
+    }
+    .two-third-col {
+        height: 30vh;
+    }
+    .two-third-col ul {
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (min-width: 767.98px) and (max-width: 991.98px) {
+    .popular-posts-item div h1 {
+        font-size: .9vh!important;
+    }
+    .popular-posts-item div ul li {
+        font-size: .9vh!important;
+    }
+    .photo-content h1 {
+        font-size: 1.5vh!important;
+    }
+}
+
+@media only screen and (min-width: 991.98px) and (max-width: 1199.98px) {
+    .popular-posts-item div h1 {
+        font-size: 1.1vh !important;
+    }
+    .popular-posts-item div ul li {
+        font-size: 1vh !important;
+    }
+}
+
+@media only screen and (min-width: 767.98px) and (max-width: 1199.98px) {
+    #container {
+        height: 270vh;
+    }
+    #popular-posts {
+        height: 40vh;
+        margin-top: -100vh;
+    }
+    #popular-posts p {
+        font-size: 1.5vh;
+    }
+    .popular-posts-item img {
+        width: 7vw;
+    }
+    .popular-posts-item div h1 {
+        padding-bottom: .2vh;
+        font-size: .9vh;
+    }
+    .popular-posts-item div ul li {
+        margin-right: 0;
+        font-size: .8vh;
+    }
+    #recent-news img {
+        height: 35vh;
+    }
+    #recent-news ul li {
+        font-size: 1.2vh;
+    }
+    #crypto-mining-news {
+        margin-top: -30vh;
+    }
+    #crypto-mining-news div ul li {
+        font-size: 1.2vh;
+        margin-right: 1vw;
+    }
+    #crypto-mining-news div h3 a {
+        font-size: 1.2vh;
+        font-weight: 600;
+    }
+    .photo-content h1 {
+        font-size: 1.5vh;
+        line-height: 2.5vh;
+    }
+    #news-letter {
+        margin-top: -58vh;
+    }
+    #news-letter p {
+        font-size: 1.5vh;
+    }
+    footer {
+        height: 82vh;
+    }
+    #footer-top {
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width: 1499.98px) {
+    #header-nav {
+        margin-bottom: 3vh;
+    }
+    #header-nav ul {
+        display: none;
+    }
+    #hamburger {
+        display: inline-block;
+    }
+    #header-nav ul li {
+        margin-left: 3vw;
+    }
+}
+
+@media only screen and (min-width: 767.98px) and(max-width: 1499.98px) {
+    #popular-posts {
+        width: 30%;
+        height: 50vh;
+        float: right;
+        margin-top: -120vh;
+    }
+    .popular-posts-item div h1 {
+        font-size: 1vw;
+        font-weight: 400;
+        padding-bottom: 1vh;
+    }
+    .popular-posts-item div ul li a {
+        font-size: .8vw;
+        font-weight: 400;
+    }
+    #news-letter {
+        width: 100%;
+        height: 30vh;
+        margin-top: -60vh;
+        float: right;
+    }
+    #container {
+        height: 280vh;
+    }
+    #div1,
+    #div2,
+    #div3,
+    #div4 {
+        width: 49.5%;
+        margin-left: 0;
+    }
+    #div2,
+    #div4 {
+        margin-right: 1%;
+    }
+    #div1,
+    #div2 {
+        margin-top: 1.5vh;
+    }
+    #div3,
+    #div4 {
+        margin-top: -24.5vh;
+    }
+    #div5 {
+        width: 100%;
+        height: 25vh;
+    }
+    #recent-news img {
+        height: 48vh;
+    }
+    #recent-news {
+        height: 100vh;
+    }
+    #recent-news h1 {
+        margin-bottom: 1vh;
+        padding-top: 4vh;
+    }
+    #crypto-mining-news div ul li {
+        margin-right: 1.5vw;
+    }
+}
