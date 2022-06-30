@@ -1,558 +1,622 @@
-    /* -------------------------------------------------------------------------- */
-    /*                                   general                                  */
-    /* -------------------------------------------------------------------------- */
-    
-    * {
-        margin: 0 auto;
-        padding: 0;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    i {
-        color: #F9B500;
-    }
-    
-    b:hover {
-        color: #F9B500;
-    }
-    
-    b {
-        font-weight: 1000;
-        transition: all 0.2;
-    }
-    
-    a {
-        color: black;
-        text-decoration: none;
-        font-weight: 700;
-    }
-    
-    a:hover {
-        color: #F9B500;
-        transition: all .3s;
-    }
-    
-    li {
-        display: inline;
-        margin-right: 2vw;
-        color: #ffffff;
-    }
-    
-    .title {
-        position: relative;
-        padding-bottom: 3vh;
-        margin-bottom: 4vh;
-        font-size: 18px;
-        font-weight: 700;
-    }
-    
-    .title:after {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        content: '';
-        width: 100%;
-        height: .2vh;
-        background: #ccc;
-    }
-    
-    .title:before {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        content: '';
-        height: 1vh;
-        width: 15%;
-        background-color: #F9B500;
-    }
-    
-    .clearfix {
-        clear: both;
-    }
-    
-    #container {
-        margin: 3vh 10vw 0 10vw;
-        overflow: hidden;
-        width: 80vw;
-        height: 310vh;
-    }
-    /* -------------------------------------------------------------------------- */
-    /*                                navbar-header                               */
-    /* -------------------------------------------------------------------------- */
-    
-    #header-nav ul {
-        margin-bottom: 5vh;
-        float: right;
-        list-style-type: none;
-        display: flex;
-    }
-    
-    #header-nav ul li {
-        display: inline;
-        margin-left: 5vw;
-    }
-    
-    #header-nav ul li a {
-        text-decoration: none;
-        color: black;
-    }
-    
-    #header-nav ul li a:hover {
-        color: #F9B500;
-    }
-    
-    #hamburger {
-        display: none;
-        float: right;
-    }
-    /* -------------------------------------------------------------------------- */
-    /*                                 main-photos                                */
-    /* -------------------------------------------------------------------------- */
-    
-    #container2 {
-        height: 100vh;
-        margin-bottom: 10vh;
-    }
-    
+/* -------------------------------------------------------------------------- */
+
+
+/*                                   general                                  */
+
+
+/* -------------------------------------------------------------------------- */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+i {
+    color: #F9B500;
+}
+
+b:hover {
+    color: #F9B500;
+}
+
+b {
+    font-weight: 1000;
+    transition: all 0.2;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #F9B500;
+    transition: all .3s;
+}
+
+li {
+    display: inline;
+    margin-right: 2vw;
+    color: #ffffff;
+}
+
+.title {
+    position: relative;
+    padding-bottom: 3vh;
+    margin-bottom: 4vh;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.title:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: .2vh;
+    background: #ccc;
+}
+
+.title:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    height: 1vh;
+    width: 15%;
+    background-color: #F9B500;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#container {
+    margin: 3vh 10vw 0 10vw;
+    overflow: hidden;
+    width: 80vw;
+    height: 310vh;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                navbar-header                               */
+
+
+/* -------------------------------------------------------------------------- */
+
+#header-nav ul {
+    margin-bottom: 5vh;
+    float: right;
+    list-style-type: none;
+    display: flex;
+}
+
+#header-nav ul li {
+    display: inline;
+    margin-left: 5vw;
+}
+
+#header-nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#header-nav ul li a:hover {
+    color: #F9B500;
+}
+
+#hamburger {
+    display: none;
+    float: right;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                 main-photos                                */
+
+
+/* -------------------------------------------------------------------------- */
+
+#container2 {
+    height: 100vh;
+    margin-bottom: 10vh;
+}
+
+.main-photos {
+    position: relative;
+    height: 90vh;
+}
+
+.two-third-row {
+    margin-top: 5vh;
+    height: 59vh;
+    width: 80vw;
+    position: absolute;
+}
+
+.one-third-col {
+    margin-left: 10px;
+    margin-bottom: 1vh;
+    width: 26vw;
+    height: 29vh;
+    float: right;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.one-third-col .photo-content h1 {
+    line-height: 4vh;
+    padding: 14vh 0 0 2vw;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+.one-third-col .photo-content ul {
+    padding: 2vh 0 2.5vh 2vw;
+}
+
+#div1 {
+    background-image: url(../images/slider-2-450x600.jpg);
+    position: relative;
+}
+
+#div2 {
+    background-image: url(../images/slider-3-450x600.jpg);
+    position: relative;
+}
+
+#div3 {
+    background-image: url(../images/slider-6-450x600.jpg);
+    position: relative;
+}
+
+#div4 {
+    background-image: url(../images/slider-5-450x600.jpg);
+    position: relative;
+}
+
+#div5 {
+    background-image: url(../images/slider-4-450x600.jpg);
+    margin-left: 0 !important;
+    float: left;
+    width: 26.6vw;
+    position: relative;
+}
+
+.two-third-col {
+    width: calc(calc(100% / 3*2));
+    height: 100%;
+    background-image: url(../images/banner-1-600x450.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.one-third-row {
+    margin-bottom: -5vh;
+    height: 29vh;
+    width: 80vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.one-third-row .photo-content h1 {
+    line-height: 4vh;
+    padding: 14vh 0 1vh 2vw;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+.one-third-row .photo-content ul {
+    padding: 0 0 2.5vh 2vw;
+}
+
+.photo-content {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+}
+
+.two-third-col .photo-content h1 {
+    padding: 37vh 0 3vh 3vw;
+    font-size: 2.3vw;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.photo-content ul {
+    padding-left: 3vw;
+    padding-bottom: 4.9vh;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                 recent news                                */
+
+
+/* -------------------------------------------------------------------------- */
+
+#recent-news {
+    margin-top: 5vh;
+    height: 150vh;
+    width: 67%;
+    float: left;
+}
+
+#recent-news img {
+    width: 100%;
+    height: 90vh;
+}
+
+#recent-news ul li {
+    color: black;
+    font-size: 1vw;
+}
+
+#recent-news span a {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+#recent-news>* {
+    padding-top: 3vh;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                   prices                                   */
+
+
+/* -------------------------------------------------------------------------- */
+
+#prices {
+    width: 30%;
+    height: 42vh;
+    float: right;
+    margin-top: 25vh;
+}
+
+#prices ul li {
+    padding-top: 1.5vh;
+    background-color: #F9B500;
+    display: block;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    border-bottom: 1px solid white;
+    color: black;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                             CRYPTO MINING NEWS                             */
+
+
+/* -------------------------------------------------------------------------- */
+
+#crypto-mining-news {
+    width: 67%;
+    height: 100vh;
+    float: left;
+    margin-top: -18vh;
+}
+
+#crypto-mining-news div {
+    width: 47%;
+    float: left;
+}
+
+#crypto-mining-news div img {
+    width: 100%;
+}
+
+#crypto-mining-news div h3 {
+    padding-bottom: 2vh;
+}
+
+#crypto-mining-news div ul li {
+    color: black;
+    font-size: 1vw;
+}
+
+#crypto-mining-news div ul li i {
+    margin-left: -.7vw;
+}
+
+#crypto-mining-news div h3 a {
+    font-size: 1vw;
+}
+
+#crypto-mining-news-1 {
+    margin-right: 3%;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                popular-posts                               */
+
+
+/* -------------------------------------------------------------------------- */
+
+#popular-posts {
+    width: 30%;
+    height: 50vh;
+    float: right;
+    margin-top: -160vh;
+}
+
+.popular-posts-item {
+    margin-bottom: 3vh;
+}
+
+.popular-posts-item div {
+    float: right;
+}
+
+.popular-posts-item div h1 {
+    padding-bottom: 3vh;
+    font-size: 1.2vw;
+}
+
+.popular-posts-item div ul li {
+    color: black;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                 news-letter                                */
+
+
+/* -------------------------------------------------------------------------- */
+
+#news-letter {
+    width: 30%;
+    height: 30vh;
+    margin-top: -75vh;
+    float: right;
+}
+
+#news-letter p {
+    color: #5e5d5d;
+    font-size: .95vw;
+    padding-bottom: 3vh;
+}
+
+#news-letter input {
+    width: 90%;
+    height: 5vh;
+    border: 2px solid #F9B500;
+    padding-left: 2vw;
+}
+
+#news-letter input:focus {
+    outline: none;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                   footer                                   */
+
+
+/* -------------------------------------------------------------------------- */
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 55vh;
+    line-height: 3.5vh;
+}
+
+#footer-top {
+    width: 80%;
+    height: 40vh;
+    position: relative;
+    top: 0;
+}
+
+#footer-left {
+    width: 23%;
+    float: left;
+    margin-top: 7vh;
+}
+
+#footer-left>* {
+    padding-bottom: 3vh;
+}
+
+.footer-center {
+    width: 30%;
+    margin-top: 7vh;
+    margin-left: 4vw;
+    float: left;
+}
+
+.footer-center h1 {
+    color: #F9B500;
+}
+
+.footer-center h3 {
+    padding: 2.5vh 0 1vh 0;
+}
+
+.first-div {
+    border-bottom: 2px solid grey;
+    padding-bottom: 5vh;
+}
+
+.second-div {
+    padding-top: 2vh;
+}
+
+#footer-bottom {
+    margin-top: 5vh;
+    width: 80%;
+    border-top: 2px solid grey;
+    padding-top: 2vh;
+}
+
+#footer-bottom ul li a {
+    color: white;
+}
+
+#footer-bottom ul li a:hover {
+    color: #F9B500;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                 responsive                                 */
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                 header-nav                                */
+
+
+/* -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 767.98px) {
     .main-photos {
-        position: relative;
-        height: 90vh;
+        height: 200vh;
     }
-    
-    .two-third-row {
-        margin-top: 5vh;
-        height: 59vh;
-        width: 80vw;
-        position: absolute;
-    }
-    
     .one-third-col {
-        margin-left: 10px;
-        margin-bottom: 1vh;
-        width: 26vw;
-        height: 29vh;
-        float: right;
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        width: 100%;
     }
-    
-    .one-third-col .photo-content h1 {
-        line-height: 4vh;
-        padding: 14vh 0 0 2vw;
-        font-weight: 800;
-        color: #ffffff;
-        font-size: 1.5vw;
+}
+
+@media screen and (max-width: 1499.98px) {
+    #header-nav {
+        margin-bottom: 3vh;
     }
-    
-    .one-third-col .photo-content ul {
-        padding: 2vh 0 2.5vh 2vw;
+    #header-nav ul {
+        display: none;
     }
-    
-    #div1 {
-        background-image: url(../images/slider-2-450x600.jpg);
-        position: relative;
+    #hamburger {
+        display: inline-block;
     }
-    
-    #div2 {
-        background-image: url(../images/slider-3-450x600.jpg);
-        position: relative;
+    #header-nav ul li {
+        margin-left: 3vw;
     }
-    
-    #div3 {
-        background-image: url(../images/slider-6-450x600.jpg);
-        position: relative;
-    }
-    
-    #div4 {
-        background-image: url(../images/slider-5-450x600.jpg);
-        position: relative;
-    }
-    
-    #div5 {
-        background-image: url(../images/slider-4-450x600.jpg);
-        margin-left: 0 !important;
-        float: left;
-        width: 26.6vw;
-        position: relative;
-    }
-    
+}
+
+@media screen and (max-width: 1499.98px) {
     .two-third-col {
-        width: calc(calc(100% / 3*2));
-        height: 100%;
-        background-image: url(../images/banner-1-600x450.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        float: left;
-    }
-    
-    .one-third-row {
-        margin-bottom: -5vh;
-        height: 29vh;
-        width: 80vw;
-        position: absolute;
-        bottom: 0;
-    }
-    
-    .one-third-row .photo-content h1 {
-        line-height: 4vh;
-        padding: 14vh 0 1vh 2vw;
-        font-weight: 800;
-        color: #ffffff;
-        font-size: 1.5vw;
-    }
-    
-    .one-third-row .photo-content ul {
-        padding: 0 0 2.5vh 2vw;
-    }
-    
-    .photo-content {
-        background-color: rgba(0, 0, 0, .4);
-        height: 100%;
         width: 100%;
+        height: 40vh;
     }
-    
-    .two-third-col .photo-content h1 {
-        padding: 37vh 0 3vh 3vw;
-        font-size: 2.3vw;
-        font-weight: 800;
-        color: #ffffff;
+    .main-photos {
+        height: 125vh;
+        margin-top: -5vh;
     }
-    
-    .photo-content ul {
-        padding-left: 3vw;
-        padding-bottom: 4.9vh;
-    }
-    /* -------------------------------------------------------------------------- */
-    /*                                 recent news                                */
-    /* -------------------------------------------------------------------------- */
-    
-    #recent-news {
-        margin-top: 5vh;
-        height: 150vh;
-        width: 67%;
-        float: left;
-    }
-    
-    #recent-news img {
-        width: 100%;
-        height: 90vh;
-    }
-    
-    #recent-news ul li {
-        color: black;
-        font-size: 1vw;
-    }
-    
-    #recent-news span a {
-        font-size: 2vw;
-        font-weight: 700;
-    }
-    
-    #recent-news>* {
-        padding-top: 3vh;
-    }
-    /* -------------------------------------------------------------------------- */
-    /*                                   prices                                   */
-    /* -------------------------------------------------------------------------- */
-    
-    #prices {
-        width: 30%;
-        height: 42vh;
-        float: right;
-        margin-top: 25vh;
-    }
-    
-    #prices ul li {
-        padding-top: 1.5vh;
-        background-color: #F9B500;
-        display: block;
-        width: 100%;
-        height: 5vh;
-        text-align: center;
-        border-bottom: 1px solid white;
-        color: black;
-    }
-    /* -------------------------------------------------------------------------- */
-    /*                             CRYPTO MINING NEWS                             */
-    /* -------------------------------------------------------------------------- */
-    
-    #crypto-mining-news {
-        width: 67%;
-        height: 100vh;
-        float: left;
-        margin-top: -18vh;
-    }
-    
-    #crypto-mining-news div {
-        width: 47%;
-        float: left;
-    }
-    
-    #crypto-mining-news div img {
-        width: 100%;
-    }
-    
-    #crypto-mining-news div h3 {
-        padding-bottom: 2vh;
-    }
-    
-    #crypto-mining-news div ul li {
-        color: black;
-        font-size: 1vw;
-    }
-    
-    #crypto-mining-news div ul li i {
-        margin-left: -.7vw;
-    }
-    
-    #crypto-mining-news div h3 a {
-        font-size: 1vw;
-    }
-    
-    #crypto-mining-news-1 {
-        margin-right: 3%;
-    }
-    /* -------------------------------------------------------------------------- */
-    /*                                popular-posts                               */
-    /* -------------------------------------------------------------------------- */
-    
+}
+
+@media screen and (max-width: 1499.98px) {
     #popular-posts {
         width: 30%;
         height: 50vh;
         float: right;
-        margin-top: -160vh;
+        margin-top: -120vh;
     }
-    
-    .popular-posts-item {
-        margin-bottom: 3vh;
-    }
-    
-    .popular-posts-item div {
-        float: right;
-    }
-    
     .popular-posts-item div h1 {
-        padding-bottom: 3vh;
-        font-size: 1.2vw;
+        padding-bottom: 1vh;
     }
-    
-    .popular-posts-item div ul li {
-        color: black;
-    }
-    /* -------------------------------------------------------------------------- */
-    /*                                 news-letter                                */
-    /* -------------------------------------------------------------------------- */
-    
     #news-letter {
-        width: 30%;
+        width: 100%;
         height: 30vh;
-        margin-top: -90vh;
+        margin-top: -60vh;
         float: right;
     }
-    
-    #news-letter p {
-        color: rgb(94, 93, 93);
-        font-size: .95vw;
-        padding-bottom: 3vh;
+    #container {
+        height: 280vh;
     }
-    
-    #news-letter input {
-        width: 90%;
-        height: 5vh;
-        border: 2px solid #F9B500;
-        padding-left: 2vw;
+    .two-third-col .photo-content h1 {
+        padding-top: 23vh;
     }
-    
-    #news-letter input:focus {
-        outline: none;
+    #div1,
+    #div2,
+    #div3,
+    #div4 {
+        width: 49.5%;
+        margin-left: 0;
     }
-    /* -------------------------------------------------------------------------- */
-    /*                                   footer                                   */
-    /* -------------------------------------------------------------------------- */
-    
-    footer {
-        background-color: black;
-        color: white;
+    #div2,
+    #div4 {
+        margin-right: 1%;
+    }
+    #div1,
+    #div2 {
+        margin-top: 1.5vh;
+    }
+    #div3,
+    #div4 {
+        margin-top: -24.5vh;
+    }
+    #div5 {
         width: 100%;
-        height: 55vh;
-        line-height: 3.5vh;
+        height: 25vh;
     }
-    
-    #footer-top {
-        width: 80%;
-        height: 40vh;
-        position: relative;
-        top: 0;
+    #div5 .photo-content h1 {
+        padding-top: 10vh;
     }
-    
-    #footer-left {
-        width: 23%;
-        float: left;
-        margin-top: 7vh;
+    #recent-news img {
+        height: 48vh;
     }
-    
-    #footer-left>* {
-        padding-bottom: 3vh;
+    #recent-news {
+        height: 100vh;
     }
-    
-    .footer-center {
-        width: 30%;
-        margin-top: 7vh;
-        margin-left: 4vw;
-        float: left;
+    #recent-news h1 {
+        margin-bottom: 1vh;
+        padding-top: 4vh;
     }
-    
-    .footer-center h1 {
-        color: #F9B500;
+    .popular-posts-item div h1 {
+        font-size: 1vw;
+        font-weight: 400;
     }
-    
-    .footer-center h3 {
-        padding: 2.5vh 0 1vh 0;
+    .popular-posts-item div img {
+        width: 1.5vw;
+        height: 1.5vh;
     }
-    
-    .first-div {
-        border-bottom: 2px solid grey;
-        padding-bottom: 5vh;
+    .popular-posts-item div ul li {
+        font-size: 1vw;
+        font-weight: 400;
     }
-    
-    .second-div {
-        padding-top: 2vh;
+    .popular-posts-item div ul li a {
+        font-size: 1vw;
+        font-weight: 400;
     }
-    
-    #footer-bottom {
-        margin-top: 5vh;
-        width: 80%;
-        border-top: 2px solid grey;
-        padding-top: 2vh;
+    #crypto-mining-news div ul li {
+        margin-right: 1.5vw;
     }
-    
-    #footer-bottom ul li a {
-        color: white;
-    }
-    
-    #footer-bottom ul li a:hover {
-        color: #F9B500;
-    }
-    /* -------------------------------------------------------------------------- */
-    /*                                 responsive                                 */
-    /* -------------------------------------------------------------------------- */
-    /* -------------------------------------------------------------------------- */
-    /*                                 header-nav                                */
-    /* -------------------------------------------------------------------------- */
-    
-    @media screen and (max-width: 767.98px) {
-        .main-photos {
-            height: 200vh;
-        }
-        .one-third-col {
-            width: 100%;
-        }
-    }
-    
-    @media screen and (max-width: 1499.98px) {
-        #header-nav {
-            margin-bottom: 3vh;
-        }
-        #header-nav ul {
-            display: none;
-        }
-        #hamburger {
-            display: inline-block;
-        }
-        #header-nav ul li {
-            margin-left: 3vw;
-        }
-    }
-    
-    @media screen and (max-width: 1499.98px) {
-        .two-third-col {
-            width: 100%;
-            height: 40vh;
-        }
-        .main-photos {
-            height: 125vh;
-            margin-top: -5vh;
-        }
-    }
-    
-    @media screen and (max-width: 1499.98px) {
-        #popular-posts {
-            width: 30%;
-            height: 50vh;
-            float: right;
-            margin-top: -120vh;
-        }
-        .popular-posts-item div h1 {
-            padding-bottom: 1vh;
-        }
-        #news-letter {
-            width: 100%;
-            height: 30vh;
-            margin-top: -60vh;
-            float: right;
-        }
-        #container {
-            height: 280vh;
-        }
-        .two-third-col .photo-content h1 {
-            padding-top: 23vh;
-        }
-        #div1,
-        #div2,
-        #div3,
-        #div4 {
-            width: 49.5%;
-            margin-left: 0;
-        }
-        #div2,
-        #div4 {
-            margin-right: 1%;
-        }
-        #div1,
-        #div2 {
-            margin-top: 1.5vh;
-        }
-        #div3,
-        #div4 {
-            margin-top: -24.5vh;
-        }
-        #div5 {
-            width: 100%;
-            height: 25vh;
-        }
-        #div5 .photo-content h1 {
-            padding-top: 10vh;
-        }
-        #recent-news img {
-            height: 48vh;
-        }
-        #recent-news {
-            height: 100vh;
-        }
-        #recent-news h1 {
-            margin-bottom: 1vh;
-            padding-top: 4vh;
-        }
-        .popular-posts-item div h1 {
-            font-size: 1vw;
-            font-weight: 400;
-        }
-        .popular-posts-item div img {
-            width: 1.5vw;
-            height: 1.5vh;
-        }
-        .popular-posts-item div ul li {
-            font-size: 1vw;
-            font-weight: 400;
-        }
-        .popular-posts-item div ul li a {
-            font-size: 1vw;
-            font-weight: 400;
-        }
-        #crypto-mining-news div ul li {
-            margin-right: 1.5vw;
-        }
-    }
+}
